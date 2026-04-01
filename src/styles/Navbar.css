@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+ul:last-child {
+  margin-right: 5px;
+}
+
+ul li {
+  letter-spacing: 0.05em;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(225, 38, 128);
+}
+
+#self-avatar {
+  max-width: 90px;
+  border-radius: 50%;
+}
