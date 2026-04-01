@@ -3,13 +3,17 @@ function Navbar() {
         <header>
             <nav>
                 <a href="../index.html">
-                    <img src="../src/assets/self-avatar.png" alt="avatar-image"></img>
+                    <img 
+                        id="self-avatar" 
+                        src="../src/assets/self-avatar.png" 
+                        alt="avatar-image" 
+                    />
                 </a>
-                <ul>
-                    <a href="pages/favorite-sport.html"><li>Favorite Sport</li></a>
-                    <a href="pages/favorite-team.html"><li>Favorite Team</li></a>
-                    <a href="pages/favorite-player.html"><li>Favorite Player</li></a>
-                    <a href="pages/contact.html"><li>Contact Me</li></a>
+                <ul id="unorder-list">
+                    <li><a href="pages/favorite-sport.html">Favorite Sport</a></li>
+                    <li><a href="pages/favorite-team.html">Favorite Team</a></li>
+                    <li><a href="pages/favorite-player.html">Favorite Player</a></li>
+                    <li><a href="pages/contact.html">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
